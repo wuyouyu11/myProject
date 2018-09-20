@@ -1,0 +1,570 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*顶部开始*/
+.indexT {
+  width: 100%;
+  height: 4.125rem;
+  background: #ffffff;
+  margin: 0 auto;
+}
+.indexT .TopNav {
+  width: 85%;
+  height: 4.125rem;
+  /*background: green;*/
+  margin: 0 auto;
+}
+.indexT .TopNav .l {
+  width: 30%;
+  height: 4.125rem;
+  /*background: blue;*/
+  float: left;
+  overflow: hidden;
+}
+@font-face{
+    font-family: 'good-morning';
+    src: url('../font/good-morning.eot');
+    src: url('../font/good-morning.eot?#iefix') format('embedded-opentype'),
+    url('../font/good-morning.woff') format('woff'),
+    url('../font/good-morning.ttf') format('truetype'),
+    url('../font/good-morning.svg#good-morning') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.indexT .TopNav .l a {
+  line-height: 4.125rem;
+  color: #fdb002;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "good-morning";
+  font-size: 24px;
+}
+.indexT .TopNav .r {
+  width: 70%;
+  height: 4.125rem;
+  float: left;
+  /*background: pink;*/
+}
+.indexT .TopNav .r ul {
+  float: right;
+}
+.indexT .TopNav .r ul li {
+  float: left;
+  line-height: 4.125rem;
+  display: inline;
+  font-size: 16px;
+  padding: 0px 20px;
+}
+.indexT .TopNav .r ul li a {
+  text-decoration: none;
+  color: #555;
+  font-family: '微软雅黑';
+}
+/*顶部结束*/
+/*图片 开始*/
+.indexI {
+  width: 100%;
+  height: 30.75rem;
+  margin: 0 auto;
+}
+.indexI .picitem {
+  width: 100%;
+  height: 30.75rem;
+  background: url('../img/chuxin.jpg') no-repeat;
+  background-size: 100%;
+  margin: 0 auto;
+}
+/*图片 结束*/
+/*About Me 开始*/
+.indexA {
+  width: 100%;
+  height: 45.875rem;
+  margin: 0 auto;
+  background: url('../img/2.png') #fff;
+  background-size: 100%;
+}
+.indexA .guanyu {
+  position: relative;
+  width: 1200px;
+  height: 45.875rem;
+  margin: 0 auto;
+}
+.indexA .guanyu .edit {
+  position: absolute;
+  width: 707px;
+  height: 388px;
+  left: 493px;
+  top: 270px;
+  z-index: 3;
+  background: #ffffff none no-repeat left top;
+}
+.indexA .guanyu .edit .ziliao {
+  width: 210px;
+  height: 61px;
+  margin: 70px 50px;
+}
+.indexA .guanyu .edit .ziliao span {
+  font-family: '微软雅黑';
+  font-size: 14px;
+  color: #555555;
+  line-height: 1.9;
+}
+.indexA .guanyu .edit .jianjie {
+  width: 600px;
+  height: 162px;
+  margin: 70px 50px;
+}
+.indexA .guanyu .edit .jianjie span {
+  font-family: '微软雅黑';
+  font-size: 14px;
+  color: #555555;
+  line-height: 1.9;
+}
+.indexA .guanyu .module {
+  position: absolute;
+  width: 600px;
+  height: 446px;
+  left: 0px;
+  top: 250px;
+  z-index: 1;
+  background: blue;
+  background-size: 100%;
+}
+.indexA .guanyu .module img {
+  width: 600px;
+  height: 446px;
+}
+.indexA .guanyu .about {
+  position: absolute;
+  width: 476px;
+  height: 134px;
+  left: 0px;
+  top: 90px;
+  z-index: 2;
+}
+.indexA .guanyu .s {
+  position: absolute;
+  width: 20px;
+  height: 17px;
+  left: 1170px;
+  top: 197px;
+  z-index: 4;
+  cursor: pointer;
+}
+.indexA .guanyu .guanwuwo {
+  position: absolute;
+  width: 132px;
+  height: 30px;
+  left: 1037px;
+  top: 192px;
+  z-index: 5;
+}
+.indexA .guanyu .guanwuwo span {
+  font-family: 微软雅黑;
+  font-size: 18px;
+  color: #888888;
+}
+.indexA .guanyu .more {
+  position: absolute;
+  width: 137px;
+  height: 17px;
+  left: 1063px;
+  top: 701px;
+  z-index: 6;
+  cursor: pointer;
+}
+/*About Me 结束*/
+/*我的技能开始*/
+.indexJ {
+  width: 100%;
+  height: 973px;
+  margin: 0 auto;
+}
+.indexJ .skills {
+  width: 1200px;
+  height: 973px;
+  margin: 0 auto;
+  position: relative;
+}
+.indexJ .skills .jineng {
+  position: absolute;
+  width: 748px;
+  height: 583px;
+  left: 452px;
+  top: 390px;
+  z-index: 1;
+  background: #fafafa;
+}
+.indexJ .skills .jineng .one {
+  position: absolute;
+  width: 160px;
+  height: 66px;
+  left: 115px;
+  top: 70px;
+  z-index: 9;
+  text-align: center;
+}
+.indexJ .skills .jineng .one span {
+  font-family: Arial;
+  font-size: 16px;
+  color: #555555;
+  line-height: 2;
+}
+.indexJ .skills .jineng .two {
+  position: absolute;
+  width: 160px;
+  height: 66px;
+  left: 350px;
+  top: 70px;
+  z-index: 10;
+  text-align: center;
+}
+.indexJ .skills .jineng .two span {
+  font-family: Arial;
+  font-size: 16px;
+  color: #555555;
+  line-height: 2;
+}
+.indexJ .skills .jineng .three {
+  position: absolute;
+  width: 160px;
+  height: 66px;
+  left: 350px;
+  top: 455px;
+  z-index: 11;
+  text-align: center;
+}
+.indexJ .skills .jineng .three span {
+  font-family: Arial;
+  font-size: 16px;
+  color: #555555;
+  line-height: 2;
+}
+.indexJ .skills .jineng .four {
+  position: absolute;
+  width: 160px;
+  height: 66px;
+  left: 530px;
+  top: 455px;
+  z-index: 12;
+  text-align: center;
+}
+.indexJ .skills .jineng .four span {
+  font-family: Arial;
+  font-size: 16px;
+  color: #555555;
+  line-height: 2;
+}
+.indexJ .skills .jineng .oneImg {
+  position: absolute;
+  width: 137px;
+  height: 137px;
+  left: 125px;
+  top: 140px;
+  z-index: 4;
+}
+.indexJ .skills .jineng .twoImg {
+  position: absolute;
+  width: 137px;
+  height: 137px;
+  left: 360px;
+  top: 140px;
+  z-index: 5;
+}
+.indexJ .skills .jineng .threeImg {
+  position: absolute;
+  width: 136px;
+  height: 136px;
+  left: 358px;
+  top: 315px;
+  z-index: 6;
+}
+.indexJ .skills .jineng .fourImg {
+  position: absolute;
+  width: 136px;
+  height: 136px;
+  left: 530px;
+  top: 315px;
+  z-index: 7;
+}
+.indexJ .skills .Myskill {
+  position: absolute;
+  width: 376px;
+  height: 141px;
+  left: 824px;
+  top: 121px;
+  z-index: 2;
+}
+.indexJ .skills .wodejineng {
+  position: absolute;
+  width: 160px;
+  height: 34px;
+  left: 1040px;
+  top: 282px;
+  z-index: 8;
+  text-align: center;
+}
+.indexJ .skills .wodejineng span {
+  font-family: 微软雅黑;
+  font-size: 18px;
+  color: #888888;
+}
+.indexJ .skills .cont {
+  position: absolute;
+  width: 432px;
+  height: 122px;
+  left: 20px;
+  top: 815px;
+  z-index: 14;
+}
+.indexJ .skills .cont span {
+  color: #555555;
+  font-family: 微软雅黑;
+  font-size: 14px;
+  line-height: 1.9;
+}
+.indexJ .skills .pic {
+  position: absolute;
+  width: 549px;
+  height: 546px;
+  left: 0px;
+  top: 217px;
+  z-index: 3;
+  background: blue;
+}
+/*我的技能结束*/
+/*设技 作 品开始*/
+.indexD {
+  width: 100%;
+  height: 1211px;
+  margin: 0 auto;
+}
+.indexD .designwork {
+  width: 1200px;
+  height: 1211px;
+  margin: 0 auto;
+  position: relative;
+}
+.indexD .designwork .img {
+  position: absolute;
+  width: 474px;
+  height: 129px;
+  left: 0px;
+  top: 128px;
+  z-index: 1;
+}
+.indexD .designwork .shejizuopin {
+  position: absolute;
+  width: 160px;
+  height: 34px;
+  left: 1040px;
+  top: 215px;
+  z-index: 2;
+}
+.indexD .designwork .shejizuopin span {
+  font-family: 微软雅黑;
+  font-size: 18px;
+  color: #888888;
+}
+.indexD .designwork .img1 {
+  position: absolute;
+  width: 468px;
+  height: 764px;
+  left: 0px;
+  top: 317px;
+  z-index: 3;
+}
+.indexD .designwork .img2 {
+  position: absolute;
+  width: 325px;
+  height: 433px;
+  left: 478px;
+  top: 317px;
+  z-index: 5;
+}
+.indexD .designwork .img3 {
+  position: absolute;
+  width: 325px;
+  height: 230px;
+  left: 478px;
+  top: 760px;
+  z-index: 6;
+}
+.indexD .designwork .img4 {
+  position: absolute;
+  width: 387px;
+  height: 582px;
+  left: 813px;
+  top: 317px;
+  z-index: 4;
+}
+.indexD .designwork .img5 {
+  position: absolute;
+  width: 610px;
+  height: 144px;
+  left: 590px;
+  top: 947px;
+  z-index: 7;
+}
+.indexD .designwork .img6 {
+  position: absolute;
+  width: 137px;
+  height: 17px;
+  left: 993px;
+  top: 992px;
+  z-index: 8;
+}
+/*设技 作 品结束*/
+/*经验 之 谈开始*/
+.indexM {
+  width: 100%;
+  height: 1073px;
+  background-color: #fafafa;
+  margin: 0 auto;
+}
+.indexM .rule {
+  width: 1200px;
+  height: 1073px;
+  margin: 0 auto;
+  position: relative;
+}
+.indexM .rule .zhinan {
+  position: absolute;
+  width: 564px;
+  height: 563px;
+  left: 636px;
+  top: 348px;
+  z-index: 1;
+}
+.indexM .rule .zhinan .imgOne {
+  position: absolute;
+  width: 464px;
+  height: 238px;
+  left: 50px;
+  top: 40px;
+  z-index: 11;
+}
+.indexM .rule .zhinan .infoOne {
+  position: absolute;
+  width: 313px;
+  height: 38px;
+  left: 50px;
+  top: 310px;
+  z-index: 12;
+}
+.indexM .rule .zhinan .infoOne span {
+  font-family: 微软雅黑;
+  font-size: 18px;
+  color: #555555;
+}
+.indexM .rule .zhinan .infoTwo {
+  position: absolute;
+  width: 483px;
+  height: 155px;
+  left: 50px;
+  top: 360px;
+  z-index: 13;
+}
+.indexM .rule .zhinan .infoTwo span {
+  font-family: 微软雅黑;
+  font-size: 14px;
+  color: #888888;
+  line-height: 1.9;
+}
+.indexM .rule .wangye {
+  position: absolute;
+  width: 564px;
+  height: 717px;
+  left: 0px;
+  top: 179px;
+  z-index: 6;
+}
+.indexM .rule .wangye .imgTwo {
+  position: absolute;
+  width: 464px;
+  height: 238px;
+  left: 50px;
+  top: 60px;
+  z-index: 7;
+  border: 4px solid #dddfdc;
+}
+.indexM .rule .wangye .infoThree {
+  position: absolute;
+  width: 313px;
+  height: 38px;
+  left: 50px;
+  top: 344px;
+  z-index: 8;
+}
+.indexM .rule .wangye .infoThree span {
+  font-family: 微软雅黑;
+  font-size: 18px;
+  color: #555555;
+}
+.indexM .rule .wangye .infofour {
+  position: absolute;
+  width: 483px;
+  height: 319px;
+  left: 50px;
+  top: 389px;
+  z-index: 9;
+}
+.indexM .rule .wangye .infofour span {
+  font-family: 微软雅黑;
+  font-size: 14px;
+  color: #888888;
+  line-height: 1.9;
+}
+.indexM .rule .imgthree {
+  position: absolute;
+  width: 521px;
+  height: 129px;
+  left: 679px;
+  top: 100px;
+  z-index: 3;
+}
+.indexM .rule .imgfour {
+  position: absolute;
+  width: 137px;
+  height: 17px;
+  left: 530px;
+  top: 982px;
+  z-index: 2;
+}
+/*经验 之 谈结束*/
+/*底部开始*/
+.footer {
+  width: 100%;
+  height: 50px;
+  background: #222;
+  margin: 0 auto;
+}
+.footer .info {
+  width: 1200px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+.footer .info a {
+  text-decoration: none;
+  color: #fff;
+}
+/*底部结束*/
+/*返回顶部*/
+#back {
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  width: 60px;
+  height: 60px;
+  background: transparent url(../img/back_top_Z.png) no-repeat center;
+  outline: 0;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  border-radius: 8px;
+  z-index: 50;
+  display: none;
+}

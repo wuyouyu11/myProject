@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*顶部开始*/
+.indexT {
+  width: 100%;
+  height: 4.125rem;
+  background: #ffffff;
+  margin: 0 auto;
+}
+.indexT .TopNav {
+  width: 85%;
+  height: 4.125rem;
+  /*background: green;*/
+  margin: 0 auto;
+}
+.indexT .TopNav .l {
+  width: 30%;
+  height: 4.125rem;
+  /*background: blue;*/
+  float: left;
+  overflow: hidden;
+}
+@font-face{
+    font-family: 'good-morning';
+    src: url('../font/good-morning.eot');
+    src: url('../font/good-morning.eot?#iefix') format('embedded-opentype'),
+    url('../font/good-morning.woff') format('woff'),
+    url('../font/good-morning.ttf') format('truetype'),
+    url('../font/good-morning.svg#good-morning') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.indexT .TopNav .l a {
+  line-height: 4.125rem;
+  color: #fdb002;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "good-morning";
+  font-size: 24px;
+}
+.indexT .TopNav .r {
+  width: 70%;
+  height: 4.125rem;
+  float: left;
+  /*background: pink;*/
+}
+.indexT .TopNav .r ul {
+  float: right;
+}
+.indexT .TopNav .r ul li {
+  float: left;
+  line-height: 4.125rem;
+  display: inline;
+  font-size: 16px;
+  padding: 0px 20px;
+}
+.indexT .TopNav .r ul li a {
+  text-decoration: none;
+  color: #555;
+  font-family: '微软雅黑';
+}
+/*顶部结束*/
+/*图片 开始*/
+.indexI {
+  width: 100%;
+  height: 18.75rem;
+  margin: 0 auto;
+}
+.indexI .picitem {
+  width: 100%;
+  height: 18.75rem;
+  background: url('../img/15.jpg') no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto;
+}
+/*图片 结束*/
+/*About Me 开始*/
+.indexA {
+  width: 100%;
+  height: 50.875rem;
+  margin: 0 auto;
+  background: url('../img/2.png') #fff;
+  background-size: 100%;
+}
+.indexA .guanyu {
+  position: relative;
+  width: 1200px;
+  height: 45.875rem;
+  margin: 0 auto;
+}
+.indexA .guanyu .edit {
+  position: absolute;
+  width: 707px;
+  height: 388px;
+  left: 493px;
+  top: 270px;
+  z-index: 3;
+  background: #ffffff none no-repeat left top;
+}
+.indexA .guanyu .edit .ziliao {
+  width: 210px;
+  height: 61px;
+  margin: 70px 50px;
+}
+.indexA .guanyu .edit .ziliao span {
+  font-family: '微软雅黑';
+  font-size: 14px;
+  color: #555555;
+  line-height: 1.9;
+}
+.indexA .guanyu .edit .jianjie {
+  width: 600px;
+  height: 162px;
+  margin: 70px 50px;
+}
+.indexA .guanyu .edit .jianjie span {
+  font-family: '微软雅黑';
+  font-size: 14px;
+  color: #555555;
+  line-height: 1.9;
+}
+.indexA .guanyu .module {
+  position: absolute;
+  width: 600px;
+  height: 446px;
+  left: 0px;
+  top: 250px;
+  z-index: 1;
+  background-size: 100%;
+}
+.indexA .guanyu .module img {
+  width: 600px;
+  height: 446px;
+}
+.indexA .guanyu .about {
+  position: absolute;
+  width: 476px;
+  height: 134px;
+  left: 0px;
+  top: 90px;
+  z-index: 2;
+}
+.indexA .guanyu .s {
+  position: absolute;
+  width: 20px;
+  height: 17px;
+  left: 1170px;
+  top: 197px;
+  z-index: 4;
+  cursor: pointer;
+}
+.indexA .guanyu .guanwuwo {
+  position: absolute;
+  width: 132px;
+  height: 30px;
+  left: 1037px;
+  top: 192px;
+  z-index: 5;
+}
+.indexA .guanyu .guanwuwo span {
+  font-family: 微软雅黑;
+  font-size: 18px;
+  color: #888888;
+}
+.indexA .guanyu .more {
+  position: absolute;
+  width: 137px;
+  height: 17px;
+  left: 1063px;
+  top: 701px;
+  z-index: 6;
+  cursor: pointer;
+}
+/*About Me 结束*/
+/*联系方式开始*/
+.indexL {
+  width: 100%;
+  height: 164px;
+  margin: 0 auto;
+  background: #feaf02;
+}
+.indexL .custom {
+  width: 1200px;
+  height: 164px;
+  margin: 0 auto;
+}
+.indexL .custom div {
+  width: 240px;
+  height: 164px;
+  text-align: center;
+  float: left;
+}
+.indexL .custom div .pic {
+  width: 240px;
+  height: 100px;
+  margin: 0 auto;
+}
+.indexL .custom div .pic img {
+  width: 54px;
+  height: 48px;
+  margin-top: 30px;
+}
+.indexL .custom div span {
+  width: 240px;
+  height: 20px;
+  line-height: 20px;
+  display: block;
+  color: #888;
+  font-size: 14px;
+}
+/*联系方式结束*/
+/*工作经验开始*/
+.indexW {
+  width: 100%;
+  height: 1088px;
+  margin: 0 auto;
+}
+.indexW .work {
+  width: 1200px;
+  height: 1088px;
+  margin: 0 auto;
+  position: relative;
+}
+.indexW .work .list1 {
+  position: absolute;
+  width: 1186px;
+  height: 140px;
+  left: 0px;
+  top: 318px;
+  z-index: 3;
+  border-left: 14px solid #00b3e2;
+}
+.indexW .work .list1 h3 {
+  padding: 27px 0 0 50px;
+  font-size: 18px;
+}
+.indexW .work .list1 h3 a {
+  text-decoration: none;
+  color: #555;
+}
+.indexW .work .list1 p {
+  padding: 0 0 0 50px;
+  font-size: 14px;
+  color: #555;
+  font-family: 微软雅黑;
+}
+.indexW .work .list2 {
+  position: absolute;
+  width: 1186px;
+  height: 140px;
+  left: 0px;
+  top: 488px;
+  z-index: 4;
+  border-left: 14px solid #30a954;
+}
+.indexW .work .list2 h3 {
+  padding: 27px 0 0 50px;
+  font-size: 18px;
+}
+.indexW .work .list2 h3 a {
+  text-decoration: none;
+  color: #555;
+}
+.indexW .work .list2 p {
+  padding: 0 0 0 50px;
+  font-size: 14px;
+  color: #555;
+  font-family: 微软雅黑;
+}
+.indexW .work .list3 {
+  position: absolute;
+  width: 1186px;
+  height: 140px;
+  left: 0px;
+  top: 658px;
+  z-index: 6;
+  border-left: 14px solid #feaf02;
+}
+.indexW .work .list3 h3 {
+  padding: 27px 0 0 50px;
+  font-size: 18px;
+}
+.indexW .work .list3 h3 a {
+  text-decoration: none;
+  color: #555;
+}
+.indexW .work .list3 p {
+  padding: 0 0 0 50px;
+  font-size: 14px;
+  color: #555;
+  font-family: 微软雅黑;
+}
+.indexW .work .list4 {
+  position: absolute;
+  width: 1186px;
+  height: 140px;
+  left: 0px;
+  top: 828px;
+  z-index: 6;
+  border-left: 14px solid #aa0115;
+}
+.indexW .work .list4 h3 {
+  padding: 27px 0 0 50px;
+  font-size: 18px;
+}
+.indexW .work .list4 h3 a {
+  text-decoration: none;
+  color: #555;
+}
+.indexW .work .list4 p {
+  padding: 0 0 0 50px;
+  font-size: 14px;
+  color: #555;
+  font-family: 微软雅黑;
+}
+.indexW .work .title {
+  position: absolute;
+  width: 178px;
+  height: 32px;
+  left: 0px;
+  top: 237px;
+  z-index: 2;
+}
+.indexW .work .title span {
+  font-family: 微软雅黑;
+  font-size: 18px;
+  color: #888888;
+}
+.indexW .work .pic {
+  position: absolute;
+  width: 601px;
+  height: 141px;
+  left: 599px;
+  top: 127px;
+  z-index: 1;
+}
+/*工作经验结束*/
+/*底部开始*/
+.footer {
+  width: 100%;
+  height: 50px;
+  background: #222;
+  margin: 0 auto;
+}
+.footer .info {
+  width: 1200px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+.footer .info a {
+  text-decoration: none;
+  color: #fff;
+}
+/*底部结束*/
+/*返回顶部*/
+#back {
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  width: 60px;
+  height: 60px;
+  background: transparent url(../img/back_top_Z.png) no-repeat center;
+  outline: 0;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  border-radius: 8px;
+  z-index: 50;
+  display: none;
+}

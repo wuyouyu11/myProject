@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*顶部开始*/
+.indexT {
+  width: 100%;
+  height: 4.125rem;
+  background: #ffffff;
+  margin: 0 auto;
+}
+.indexT .TopNav {
+  width: 85%;
+  height: 4.125rem;
+  /*background: green;*/
+  margin: 0 auto;
+}
+.indexT .TopNav .l {
+  width: 30%;
+  height: 4.125rem;
+  /*background: blue;*/
+  float: left;
+  overflow: hidden;
+}
+@font-face{
+    font-family: 'good-morning';
+    src: url('../font/good-morning.eot');
+    src: url('../font/good-morning.eot?#iefix') format('embedded-opentype'),
+    url('../font/good-morning.woff') format('woff'),
+    url('../font/good-morning.ttf') format('truetype'),
+    url('../font/good-morning.svg#good-morning') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.indexT .TopNav .l a {
+  line-height: 4.125rem;
+  color: #fdb002;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "good-morning";
+  font-size: 24px;
+}
+.indexT .TopNav .r {
+  width: 70%;
+  height: 4.125rem;
+  float: left;
+  /*background: pink;*/
+}
+.indexT .TopNav .r ul {
+  float: right;
+}
+.indexT .TopNav .r ul li {
+  float: left;
+  line-height: 4.125rem;
+  display: inline;
+  font-size: 16px;
+  padding: 0px 20px;
+}
+.indexT .TopNav .r ul li a {
+  text-decoration: none;
+  color: #555;
+  font-family: '微软雅黑';
+}
+/*顶部结束*/
+/*图片 开始*/
+.indexI {
+  width: 100%;
+  height: 18.75rem;
+  margin: 0 auto;
+}
+.indexI .picitem {
+  width: 100%;
+  height: 18.75rem;
+  background: url('../img/16.jpg') no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto;
+}
+/*图片 结束*/
+/*作品展示开始*/
+.indexZ {
+  width: 100%;
+  height: 1905px;
+  margin: 0 auto;
+}
+.indexZ .zuopin {
+  width: 1200px;
+  height: 1905px;
+  margin: 0 auto;
+  position: relative;
+}
+.indexZ .zuopin .wangyesheji {
+  position: absolute;
+  width: 104px;
+  height: 40px;
+  left: 848px;
+  top: 214px;
+  z-index: 3;
+  border: 1px solid #ccc;
+  background: #FFA500;
+  text-align: center;
+  cursor: pointer;
+}
+.indexZ .zuopin .wangyesheji b {
+  line-height: 40px;
+  color: #555;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  font-weight: 400;
+}
+.indexZ .zuopin .pingmiansheji {
+  position: absolute;
+  width: 104px;
+  height: 40px;
+  left: 972px;
+  top: 214px;
+  z-index: 7;
+  border: 1px solid #ccc;
+  text-align: center;
+  cursor: pointer;
+}
+.indexZ .zuopin .pingmiansheji b {
+  line-height: 40px;
+  color: #555;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  font-weight: 400;
+}
+.indexZ .zuopin .ui {
+  position: absolute;
+  width: 104px;
+  height: 40px;
+  left: 1096px;
+  top: 214px;
+  z-index: 5;
+  border: 1px solid #ccc;
+  text-align: center;
+  cursor: pointer;
+}
+.indexZ .zuopin .ui b {
+  line-height: 40px;
+  color: #555;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  font-weight: 400;
+}
+.indexZ .zuopin .pic1 {
+  position: absolute;
+  width: 420px;
+  height: 132px;
+  left: 0px;
+  top: 125px;
+  z-index: 1;
+}
+.indexZ .zuopin .pics {
+  position: absolute;
+  width: 1200px;
+  height: 1547px;
+  left: 0px;
+  top: 317px;
+  z-index: 4;
+}
+.indexZ .zuopin .pics .pic2 {
+  position: absolute;
+  width: 382px;
+  height: 580px;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+.indexZ .zuopin .pics .pic3 {
+  position: absolute;
+  width: 382px;
+  height: 994px;
+  left: 409px;
+  top: 0px;
+  z-index: 2;
+}
+.indexZ .zuopin .pics .pic4 {
+  position: absolute;
+  width: 382px;
+  height: 872px;
+  left: 818px;
+  top: 0px;
+  z-index: 3;
+}
+.indexZ .zuopin .pics .pic5 {
+  position: absolute;
+  width: 382px;
+  height: 877px;
+  left: 0px;
+  top: 611px;
+  z-index: 4;
+}
+.indexZ .zuopin .pics .pic6 {
+  position: absolute;
+  width: 382px;
+  height: 466px;
+  left: 409px;
+  top: 1022px;
+  z-index: 5;
+}
+.indexZ .zuopin .pics .pic7 {
+  position: absolute;
+  width: 382px;
+  height: 586px;
+  left: 818px;
+  top: 902px;
+  z-index: 6;
+}
+.indexZ .zuopin .picstwo {
+  display: none;
+  position: absolute;
+  width: 1200px;
+  height: 1547px;
+  left: 0px;
+  top: 317px;
+  z-index: 4;
+  background: yellow;
+}
+.indexZ .zuopin .picstwo .pic2 {
+  position: absolute;
+  width: 382px;
+  height: 580px;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+.indexZ .zuopin .picstwo .pic2 img {
+  width: 382px;
+  height: 600px;
+}
+.indexZ .zuopin .picstwo .pic3 {
+  position: absolute;
+  width: 382px;
+  height: 994px;
+  left: 409px;
+  top: 0px;
+  z-index: 2;
+}
+.indexZ .zuopin .picstwo .pic3 img {
+  width: 382px;
+  height: 800px;
+}
+.indexZ .zuopin .picstwo .pic4 {
+  position: absolute;
+  width: 382px;
+  height: 872px;
+  left: 818px;
+  top: 0px;
+  z-index: 3;
+}
+.indexZ .zuopin .picstwo .pic4 img {
+  width: 382px;
+  height: 700px;
+}
+.indexZ .zuopin .picstwo .pic5 {
+  position: absolute;
+  width: 382px;
+  height: 877px;
+  left: 0px;
+  top: 611px;
+  z-index: 4;
+}
+.indexZ .zuopin .picstwo .pic6 {
+  position: absolute;
+  width: 382px;
+  height: 466px;
+  left: 409px;
+  top: 1022px;
+  z-index: 5;
+}
+.indexZ .zuopin .picstwo .pic7 {
+  position: absolute;
+  width: 382px;
+  height: 586px;
+  left: 818px;
+  top: 902px;
+  z-index: 6;
+}
+.indexZ .zuopin .picsthree {
+  display: none;
+  position: absolute;
+  width: 1200px;
+  height: 1547px;
+  left: 0px;
+  top: 317px;
+  z-index: 4;
+  background: green;
+}
+.indexZ .zuopin .picsthree .pic2 {
+  position: absolute;
+  width: 382px;
+  height: 580px;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+.indexZ .zuopin .picsthree .pic2 img {
+  width: 382px;
+  height: 600px;
+}
+.indexZ .zuopin .picsthree .pic3 {
+  position: absolute;
+  width: 382px;
+  height: 994px;
+  left: 409px;
+  top: 0px;
+  z-index: 2;
+}
+.indexZ .zuopin .picsthree .pic3 img {
+  width: 382px;
+  height: 800px;
+}
+.indexZ .zuopin .picsthree .pic4 {
+  position: absolute;
+  width: 382px;
+  height: 872px;
+  left: 818px;
+  top: 0px;
+  z-index: 3;
+}
+.indexZ .zuopin .picsthree .pic4 img {
+  width: 382px;
+  height: 700px;
+}
+.indexZ .zuopin .picsthree .pic5 {
+  position: absolute;
+  width: 382px;
+  height: 877px;
+  left: 0px;
+  top: 611px;
+  z-index: 4;
+}
+.indexZ .zuopin .picsthree .pic6 {
+  position: absolute;
+  width: 382px;
+  height: 466px;
+  left: 409px;
+  top: 1022px;
+  z-index: 5;
+}
+.indexZ .zuopin .picsthree .pic7 {
+  position: absolute;
+  width: 382px;
+  height: 586px;
+  left: 818px;
+  top: 802px;
+  z-index: 6;
+}
+.indexZ .zuopin .picsthree .pic7 img {
+  width: 382px;
+  height: 586px;
+}
+.indexZ .zuopin .show {
+  display: block;
+}
+/*作品展示结束*/
+/*底部开始*/
+.footer {
+  width: 100%;
+  height: 50px;
+  background: #222;
+  margin: 0 auto;
+}
+.footer .info {
+  width: 1200px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+.footer .info a {
+  text-decoration: none;
+  color: #fff;
+}
+/*底部结束*/
+/*返回顶部*/
+#back {
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  width: 60px;
+  height: 60px;
+  background: transparent url(../img/back_top_Z.png) no-repeat center;
+  outline: 0;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  border-radius: 8px;
+  z-index: 50;
+  display: none;
+}

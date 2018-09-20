@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*顶部开始*/
+.indexT {
+  width: 100%;
+  height: 4.125rem;
+  background: #ffffff;
+  margin: 0 auto;
+}
+.indexT .TopNav {
+  width: 85%;
+  height: 4.125rem;
+  /*background: green;*/
+  margin: 0 auto;
+}
+.indexT .TopNav .l {
+  width: 30%;
+  height: 4.125rem;
+  /*background: blue;*/
+  float: left;
+  overflow: hidden;
+}
+@font-face{
+    font-family: 'good-morning';
+    src: url('../font/good-morning.eot');
+    src: url('../font/good-morning.eot?#iefix') format('embedded-opentype'),
+    url('../font/good-morning.woff') format('woff'),
+    url('../font/good-morning.ttf') format('truetype'),
+    url('../font/good-morning.svg#good-morning') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.indexT .TopNav .l a {
+  line-height: 4.125rem;
+  color: #fdb002;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "good-morning";
+  font-size: 24px;
+}
+.indexT .TopNav .r {
+  width: 70%;
+  height: 4.125rem;
+  float: left;
+  /*background: pink;*/
+}
+.indexT .TopNav .r ul {
+  float: right;
+}
+.indexT .TopNav .r ul li {
+  float: left;
+  line-height: 4.125rem;
+  display: inline;
+  font-size: 16px;
+  padding: 0px 20px;
+}
+.indexT .TopNav .r ul li a {
+  text-decoration: none;
+  color: #555;
+  font-family: '微软雅黑';
+}
+/*顶部结束*/
+.indexI {
+  width: 100%;
+  height: 18.75rem;
+  margin: 0 auto;
+}
+.indexI .picitem {
+  width: 100%;
+  height: 18.75rem;
+  background: url('../img/23.jpg') no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto;
+}
+/*图片 结束*/
+/*留言部分开始*/
+.indexL {
+  width: 100%;
+  height: 701px;
+  margin: 0 auto;
+}
+.indexL .liuyan {
+  width: 1200px;
+  height: 701px;
+  margin: 0 auto;
+}
+.indexL .liuyan .up {
+  width: 1200px;
+  height: 298px;
+  margin: 0 auto;
+  position: relative;
+}
+.indexL .liuyan .up .leave {
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  width: 557px;
+  height: 128px;
+}
+.indexL .liuyan .up .geiwoliuyan {
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+  width: 160px;
+  height: 30px;
+  text-align: right;
+}
+.indexL .liuyan .up .geiwoliuyan span {
+  font-family: 微软雅黑;
+  font-size: 18px;
+  color: #888888;
+}
+.indexL .liuyan .down {
+  width: 1002px;
+  height: 390px;
+  margin: 0 auto;
+}
+.indexL .liuyan .down .text {
+  width: 994px;
+  height: 294px;
+  margin: 0 auto;
+  background-color: #fafafa;
+  border: 1px solid #dadada;
+  padding: 3px;
+  display: inline-block;
+  color: #444;
+}
+.indexL .liuyan .down .text textarea {
+  width: 994px;
+  height: 294px;
+  font-size: 14px;
+}
+.indexL .liuyan .down .smt {
+  margin-top: 20px;
+  width: 142px;
+  height: 48px;
+}
+.indexL .liuyan .down .smt #btn {
+  width: 142px;
+  height: 48px;
+  background: #feaf02;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 微软雅黑;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+}
+/*留言部分结束*/
+/*留言列表开始*/
+.indexM {
+  width: 100%;
+  margin: 0 auto;
+}
+.indexM .list {
+  width: 1200px;
+  margin: 0 auto;
+}
+.indexM .list .up {
+  width: 1200px;
+  height: 270px;
+  margin: 0 auto;
+  position: relative;
+}
+.indexM .list .up .msg {
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  width: 483px;
+  height: 129px;
+}
+.indexM .list .up .liuyanliebiao {
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+  width: 160px;
+  height: 50px;
+  height: 30px;
+  text-align: right;
+}
+.indexM .list .up .liuyanliebiao span {
+  font-family: 微软雅黑;
+  font-size: 18px;
+  color: #888888;
+}
+.indexM .list .down {
+  width: 1200px;
+  margin: 0 auto;
+}
+.indexM .list .down ul li {
+  list-style: none;
+  width: 1200px;
+  height: 170px;
+  background: #fafafa;
+  margin-top: 20px;
+}
+.indexM .list .down ul li .first {
+  margin-top: 0;
+}
+.indexM .list .down ul li .inner {
+  padding: 35px 50px 30px 30px;
+}
+.indexM .list .down ul li .inner .pics {
+  width: 100px;
+  height: 60px;
+  float: left;
+}
+.indexM .list .down ul li .inner .pics img {
+  width: 60px;
+  height: 60px;
+}
+.indexM .list .down ul li .inner .attrs {
+  width: 1000px;
+  float: left;
+  font-family: 微软雅黑;
+  font-weight: 700;
+  font-size: 14px;
+}
+.indexM .list .down ul li .inner .attrs span {
+  color: #555555;
+}
+.indexM .list .down ul li .inner .attrs .lala {
+  float: left;
+  padding: 6px 3px 0 0;
+}
+.indexM .list .down ul li .inner .attrs p {
+  float: left;
+  font-size: 12px;
+  color: #888888;
+  line-height: 27px;
+  height: 52px;
+}
+.indexM .list .down ul li table tr {
+  width: 1200px;
+  height: 170px;
+  background: #fafafa;
+  margin-top: 20px;
+}
+/*留言列表结束*/
+/*底部开始*/
+.footer {
+  width: 100%;
+  height: 50px;
+  background: #222;
+  margin: 0 auto;
+}
+.footer .info {
+  width: 1200px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+.footer .info a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+}
+/*底部结束*/
+/*返回顶部*/
+#back {
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  width: 60px;
+  height: 60px;
+  background: transparent url(../img/back_top_Z.png) no-repeat center;
+  outline: 0;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  border-radius: 8px;
+  z-index: 50;
+  display: none;
+}
